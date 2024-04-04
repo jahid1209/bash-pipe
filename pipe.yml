@@ -1,0 +1,14 @@
+name: bash-pipe
+image: j1209/bash-pipe:0.0.0
+description: A  pipe to run SCA and SAST security scans
+category: security
+repository: https://bitbucket.org/sys-dsi/bash-pipe
+vendor:
+  name: jahid1209
+  website: https://github.com/jahid1209/
+maintainer:
+  name: jahid1209
+  website: https://github.com/jahid1209/
+tags:
+    - security
+  
