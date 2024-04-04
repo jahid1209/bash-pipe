@@ -2,6 +2,10 @@
 
 A  pipe to run SCA and SAST security scans
 
+## Docker image size
+Base image is `openjdk:11` and size is [332.03MB](https://hub.docker.com/layers/j1209/bash-pipe/2.0.0/images/sha256-b25a1d3f2566006ad60b5abce344e39bbd1ce161bfccb733af05a2165356b5aa?context=explore)
+
+
 ## YAML Definition
 
 Add the following snippet to the script section of your `bitbucket-pipelines.yml` file:

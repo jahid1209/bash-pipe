@@ -1,10 +1,6 @@
-FROM ubuntu:latest
+FROM openjdk:11
 
-RUN apt-get update \
-    && apt-get install -y openjdk-17-jdk \
-    && apt-get install -y wget \
-    && apt-get install -y curl \
-    && apt-get install zip unzip
+RUN apt-get update && apt-get install -y --no-install-recommends bash curl
 
 COPY pipe /
 COPY LICENSE.txt pipe.yml README.md /
