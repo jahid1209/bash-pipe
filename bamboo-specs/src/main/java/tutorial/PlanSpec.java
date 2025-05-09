@@ -74,8 +74,8 @@ public class PlanSpec {
                                                 .description("Demo task description")
                                                 .configuration(new MapBuilder()
                                                         .put("jf.task.server.id", "YT")
-                                                        .put("jf.task.command", "jf except in java")
-                                                        .put("jf.task.working.directory", "/tmp/nodirectory")
+                                                        .put("jf.task.command", "jf java spec is very difficult to configure")
+                                                        .put("jf.task.working.directory", "/tmp/no-idea_what-willHappen")
                                                         .build()))))
                 .linkedRepositories("BashPipe")
 
