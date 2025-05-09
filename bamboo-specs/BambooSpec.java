@@ -71,7 +71,7 @@ public class PlanSpec {
     
     public static void main(String... argv) {
         //By default credentials are read from the '.credentials' file.
-        BambooServer bambooServer = new BambooServer("http://BD-MB65187:6990/bamboo");
+        BambooServer bambooServer = new BambooServer("http://localhost:6990/bamboo");
         final PlanSpec planSpec = new PlanSpec();
         
         final Plan plan = planSpec.plan();
