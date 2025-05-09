@@ -77,7 +77,7 @@ public class PlanSpec {
                                                         .put("jf.task.command", "jf except in java")
                                                         .put("jf.task.working.directory", "/tmp/nodirectory")
                                                         .build()))))
-                .linkedRepositories("Bamboo-helloJava")
+                .linkedRepositories("BashPipe")
 
                 .triggers(new RepositoryPollingTrigger())
                 .planBranchManagement(new PlanBranchManagement()
