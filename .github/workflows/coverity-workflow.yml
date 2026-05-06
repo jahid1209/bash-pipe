@@ -1,5 +1,5 @@
 # Quickstart: Black Duck Security Scan Action with coverity:
-#     https://documentation.blackduck.com/bundle/bridge/page/documentation/t_github-coverity-quickstart.html
+#     https://blackduck-dev.zoominsoftware.io/bundle/bridge/page/documentation/t_github-coverity-quickstart.html
 name: Coverity Scan
 on:
   push:
